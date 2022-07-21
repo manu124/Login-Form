@@ -16,7 +16,7 @@
    
     /*set a style for the buttons*/
     button {
-        background-color: #4CAF50;
+        background-color:rebeccapurple;
         color: white;
         padding: 14px 20px;
         margin: 8px 0;
@@ -96,7 +96,7 @@
      
     .close:hover,
     .close:focus {
-        color: red;
+        color: rgb(70, 14, 14);
         cursor: pointer;
     }
    
@@ -137,17 +137,18 @@
  
 <body>
  
-    <h2>Modal Login Form</h2>
+    <center><h1> Login Form</h1>
+        <h2>Click here to Login in Page</h2>
     <!--Step 1 : Adding HTML-->
     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+</center>
  
     <div id="id01" class="modal">
  
         <form class="modal-content animate" action="/action_page.php">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src=
-"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" alt="Avatar" class="avatar">
+                <img src="" alt="Avatar" class="avatar">
             </div>
  
             <div class="container">
